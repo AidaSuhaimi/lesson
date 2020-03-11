@@ -1,0 +1,162 @@
+[main           ] [2019-11-09 22:37:27] INFO  com.justinmind.prototyper  - START Justinmind Prototyper
+[main           ] [2019-11-09 22:37:28] INFO  com.justinmind.prototyper  - Xmx set to 1024m on C:\Program Files (x86)\Justinmind\Justinmind Prototyper 8.7.4\JustinmindPrototyper.ini. Available memory: 8458571776 allocatable memory: 6766857360(80%) memory to allocate: 1073741824
+[main           ] [2019-11-09 22:37:28] INFO  com.justinmind.prototyper  - Loading installation.xml
+[main           ] [2019-11-09 22:37:29] INFO  com.justinmind.metrics  - {type=CLOSED, use_time=1573310249141}
+[main           ] [2019-11-09 22:37:34] INFO  com.justinmind.prototyper  - EXIT Justinmind Prototyper
+[main           ] [2019-11-09 22:37:36] INFO  com.justinmind.prototyper  - START Justinmind Prototyper
+[main           ] [2019-11-09 22:37:38] INFO  com.justinmind.prototyper  - SWAP Normal
+[main           ] [2019-11-09 22:37:38] INFO  com.justinmind.prototyper  - SWAP HIDPI
+[main           ] [2019-11-09 22:37:38] INFO  com.justinmind.prototyper  - restar? false
+[main           ] [2019-11-09 22:37:38] INFO  com.justinmind.prototyper  - restart
+[main           ] [2019-11-09 22:37:38] INFO  com.justinmind.metrics  - {type=CLOSED, use_time=1573310258392}
+[main           ] [2019-11-09 22:37:43] INFO  com.justinmind.prototyper  - EXIT Justinmind Prototyper
+[main           ] [2019-11-09 22:37:45] INFO  com.justinmind.prototyper  - START Justinmind Prototyper
+[main           ] [2019-11-09 22:37:46] INFO  com.justinmind.prototyper  - SWAP Normal
+[main           ] [2019-11-09 22:37:46] INFO  com.justinmind.prototyper  - SWAP HIDPI
+[main           ] [2019-11-09 22:37:46] INFO  com.justinmind.prototyper  - restar? false
+[main           ] [2019-11-09 22:37:46] INFO  com.justinmind.prototyper  - restart
+[main           ] [2019-11-09 22:37:47] INFO  com.justinmind.metrics  - {type=OPENED, hostname=laptop-rt5ijsjs, user=nurullaydaa, install_id=960815169, os=Windows 8, os_version=6.2, arch=x86, osarch=64, country=MY, language=en, version=8.7.4, java_version=1.8.0_25-b18, cpu=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, dpi=96, displays=1, resolution=1920x1080}
+[main           ] [2019-11-09 22:38:09] ERROR com.justinmind.usernoteclient.UsernoteClient  - Error connecting to Usernote while checking internet connection.
+org.apache.http.conn.HttpHostConnectException: Connect to www.justinmind.com:443 [www.justinmind.com/52.0.113.134] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.BasicHttpClientConnectionManager.connect(BasicHttpClientConnectionManager.java:338)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.justinmind.usernoteclient.UsernoteClient.checkConnection(UsernoteClient.java:1119)
+	at com.justinmind.evc.igu.main.n.d(n.java)
+	at com.justinmind.evc.igu.main.n.a(n.java)
+	at com.justinmind.evc.igu.main.Application.run(Application.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 30 more
+[main           ] [2019-11-09 22:38:09] INFO  com.justinmind.metrics  - {type=PC_INFO, hostname=laptop-rt5ijsjs, user=nurullaydaa, install_id=960815169, license=E15BBE3D9B7F1159C588D414C362346F, os=Windows 8, os_version=6.2, arch=x86, osarch=64, country=MY, language=en, product=Prototyper Pro, version=8.7.4, java_version=1.8.0_25-b18, cpu=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, dpi=96, displays=1, resolution=1920x1080, user_id=null, name=null, username=null, account_id=null, role=null, status=TRIAL}
+[main           ] [2019-11-09 22:38:09] INFO  com.justinmind.metrics  - {type=STARTED}
+[main           ] [2019-11-09 22:39:39] INFO  com.justinmind.prototyper  - Open: C:\Users\NurullAydaa\Desktop\Egarden3.0.vp
+[main           ] [2019-11-09 22:39:52] INFO  com.justinmind.prototyper  - Activate Tab: USER_INTERFACE
+[main           ] [2019-11-09 22:39:56] INFO  com.justinmind.metrics  - {type=JP_PREF, hidden_palettes=[Properties, CSS, Data Masters, Events, Masters, Navigator, Variables, Templates, Requirements, Comments], floating_palettes=[], editor=docked, hidden_toolbars=[], rules=true, grid=false, snap=true, canvasSize=true, browser=chromium}
+[main           ] [2019-11-09 22:40:15] INFO  com.justinmind.prototyper  - Activate Tab: USER_INTERFACE
+[main           ] [2019-11-09 22:40:29] INFO  com.justinmind.prototyper  - Widgets loaded
+[ModalContext   ] [2019-11-09 22:41:47] INFO  com.justinmind.generator  - ---------------------- Egarden3.0 ----------------------
+[ModalContext   ] [2019-11-09 22:41:47] INFO  com.justinmind.generator  - simulation: [installPath=C:/Program Files (x86)/Justinmind/Justinmind Prototyper 8.7.4/, outputPath=C:/Users/NurullAydaa/Justinmind/8.7.4/work1/8897520341484917293/, optimize=true]
+[ModalContext   ] [2019-11-09 22:41:48] INFO  com.justinmind.generator  - generation took 809ms
+
+[main           ] [2019-11-09 22:41:48] INFO  com.justinmind.metrics  - {type=JP_OP, op=SIMULATE, comments=true, browser=chromium, scale=100, device=ANDROID_PHONE}
+[ModalContext   ] [2019-11-10 01:25:47] INFO  com.justinmind.generator  - ---------------------- Egarden3.0 ----------------------
+[ModalContext   ] [2019-11-10 01:25:47] INFO  com.justinmind.generator  - simulation: [installPath=C:/Program Files (x86)/Justinmind/Justinmind Prototyper 8.7.4/, outputPath=C:/Users/NurullAydaa/Justinmind/8.7.4/work1/8897520341484917293/, optimize=true]
+[ModalContext   ] [2019-11-10 01:25:47] INFO  com.justinmind.generator  - generation took 733ms
+
+[main           ] [2019-11-10 01:25:47] INFO  com.justinmind.metrics  - {type=JP_OP, op=SIMULATE, comments=true, browser=chromium, scale=100, device=ANDROID_PHONE}
+[main           ] [2019-11-10 01:27:01] INFO  com.justinmind.prototyper  - EXECUTE: com.justinmind.evc.igu.Commands.mb
+[main           ] [2019-11-10 01:27:01] INFO  com.justinmind.prototyper  - EXECUTE: com.justinmind.evc.igu.Commands.mb
+[ModalContext   ] [2019-11-10 01:27:04] INFO  com.justinmind.generator  - ---------------------- Egarden3.0 ----------------------
+[ModalContext   ] [2019-11-10 01:27:04] INFO  com.justinmind.generator  - simulation: [installPath=C:/Program Files (x86)/Justinmind/Justinmind Prototyper 8.7.4/, outputPath=C:/Users/NurullAydaa/Justinmind/8.7.4/work1/8897520341484917293/, optimize=true]
+[ModalContext   ] [2019-11-10 01:27:05] INFO  com.justinmind.generator  - generation took 479ms
+
+[main           ] [2019-11-10 01:27:05] INFO  com.justinmind.metrics  - {type=JP_OP, op=SIMULATE, comments=true, browser=chromium, scale=100, device=ANDROID_PHONE}
+[ModalContext   ] [2019-11-10 01:27:24] INFO  com.justinmind.generator  - ---------------------- Egarden3.0 ----------------------
+[ModalContext   ] [2019-11-10 01:27:24] INFO  com.justinmind.generator  - simulation: [installPath=C:/Program Files (x86)/Justinmind/Justinmind Prototyper 8.7.4/, outputPath=C:/Users/NurullAydaa/Justinmind/8.7.4/work1/8897520341484917293/, optimize=true]
+[ModalContext   ] [2019-11-10 01:27:24] INFO  com.justinmind.generator  - generation took 512ms
+
+[main           ] [2019-11-10 01:27:24] INFO  com.justinmind.metrics  - {type=JP_OP, op=SIMULATE, comments=true, browser=chromium, scale=100, device=ANDROID_PHONE}
+[main           ] [2019-11-10 01:27:49] INFO  com.justinmind.metrics  - {type=CLOSED, use_time=10179716}
+[main           ] [2019-11-10 01:27:54] INFO  com.justinmind.prototyper  - EXIT Justinmind Prototyper
+[main           ] [2019-11-10 08:37:21] INFO  com.justinmind.prototyper  - START Justinmind Prototyper
+[main           ] [2019-11-10 08:37:22] INFO  com.justinmind.prototyper  - SWAP Normal
+[main           ] [2019-11-10 08:37:22] INFO  com.justinmind.prototyper  - SWAP HIDPI
+[main           ] [2019-11-10 08:37:22] INFO  com.justinmind.prototyper  - restar? false
+[main           ] [2019-11-10 08:37:22] INFO  com.justinmind.prototyper  - restart
+[main           ] [2019-11-10 08:37:23] INFO  com.justinmind.metrics  - {type=OPENED, hostname=laptop-rt5ijsjs, user=nurullaydaa, install_id=960815169, os=Windows 8, os_version=6.2, arch=x86, osarch=64, country=MY, language=en, version=8.7.4, java_version=1.8.0_25-b18, cpu=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, dpi=96, displays=1, resolution=1920x1080}
+[main           ] [2019-11-10 08:37:37] INFO  com.justinmind.metrics  - {type=CLOSED, use_time=1573346257193}
+[main           ] [2019-11-10 08:37:38] INFO  com.justinmind.prototyper  - EXIT Justinmind Prototyper
+[main           ] [2019-11-10 08:37:44] INFO  com.justinmind.prototyper  - START Justinmind Prototyper
+[main           ] [2019-11-10 08:37:45] INFO  com.justinmind.prototyper  - SWAP Normal
+[main           ] [2019-11-10 08:37:45] INFO  com.justinmind.prototyper  - SWAP HIDPI
+[main           ] [2019-11-10 08:37:45] INFO  com.justinmind.prototyper  - restar? false
+[main           ] [2019-11-10 08:37:45] INFO  com.justinmind.prototyper  - restart
+[main           ] [2019-11-10 08:37:45] INFO  com.justinmind.metrics  - {type=OPENED, hostname=laptop-rt5ijsjs, user=nurullaydaa, install_id=960815169, os=Windows 8, os_version=6.2, arch=x86, osarch=64, country=MY, language=en, version=8.7.4, java_version=1.8.0_25-b18, cpu=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, dpi=96, displays=1, resolution=1920x1080}
+[main           ] [2019-11-10 08:38:06] ERROR com.justinmind.usernoteclient.UsernoteClient  - Error connecting to Usernote while checking internet connection.
+org.apache.http.conn.HttpHostConnectException: Connect to www.justinmind.com:443 [www.justinmind.com/52.0.113.134] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.BasicHttpClientConnectionManager.connect(BasicHttpClientConnectionManager.java:338)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.justinmind.usernoteclient.UsernoteClient.checkConnection(UsernoteClient.java:1119)
+	at com.justinmind.evc.igu.main.n.d(n.java)
+	at com.justinmind.evc.igu.main.n.a(n.java)
+	at com.justinmind.evc.igu.main.Application.run(Application.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.callMethodWithException(EclipseAppContainer.java:587)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:198)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 30 more
+[main           ] [2019-11-10 08:38:07] INFO  com.justinmind.metrics  - {type=PC_INFO, hostname=laptop-rt5ijsjs, user=nurullaydaa, install_id=960815169, license=E15BBE3D9B7F1159C588D414C362346F, os=Windows 8, os_version=6.2, arch=x86, osarch=64, country=MY, language=en, product=Prototyper Pro, version=8.7.4, java_version=1.8.0_25-b18, cpu=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86, dpi=96, displays=1, resolution=1920x1080, user_id=null, name=null, username=null, account_id=null, role=null, status=TRIAL}
+[main           ] [2019-11-10 08:38:07] INFO  com.justinmind.metrics  - {type=STARTED}
+[main           ] [2019-11-10 08:42:28] INFO  com.justinmind.prototyper  - Open: C:\Users\NurullAydaa\Desktop\Egarden3.0.vp
+[main           ] [2019-11-10 08:42:40] INFO  com.justinmind.prototyper  - Activate Tab: USER_INTERFACE
+[main           ] [2019-11-10 08:42:43] INFO  com.justinmind.prototyper  - Activate Tab: USER_INTERFACE
+[main           ] [2019-11-10 08:42:44] INFO  com.justinmind.metrics  - {type=JP_PREF, hidden_palettes=[Properties, Data Masters, CSS, Events, Masters, Navigator, Variables, Templates, Requirements, Comments], floating_palettes=[], editor=docked, hidden_toolbars=[], rules=true, grid=false, snap=true, canvasSize=true, browser=chromium}
+[main           ] [2019-11-10 08:42:45] INFO  com.justinmind.prototyper  - Widgets loaded
+[main           ] [2019-11-10 13:14:22] INFO  com.justinmind.metrics  - {type=CLOSED, use_time=16575403}
+[main           ] [2019-11-10 13:14:23] INFO  com.justinmind.prototyper  - EXIT Justinmind Prototyper

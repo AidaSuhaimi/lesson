@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <UI weight="Editor">
+    
+    
+    
+    
+    <Panel type="docked" id="LeftUIPalettePanel" size="205" state="PINNED_OPEN" weight="568:431">
+      
+      
+      
+      
+      <Folder>
+        
+        
+        
+        
+        <Palette id="ScreensPalette" visible="true" viewMode="GRID_IMAGE" />
+        
+        
+        
+        
+        <Palette id="TemplatesPalette" visible="false" viewMode="LIST_TEXT" />
+        
+        
+      
+      
+      </Folder>
+      
+      
+      
+      
+      <Folder>
+        
+        
+        
+        
+        <Palette id="WidgetsPalette" visible="true" viewMode="GRID_IMAGE" />
+        
+        
+        
+        
+        <Palette id="CustomComponentsPalette" visible="false" viewMode="LIST_TEXT" />
+        
+        
+      
+      
+      </Folder>
+      
+      
+    
+    
+    </Panel>
+    
+    
+    
+    
+    <Panel type="docked" id="RightUIPalettePanel" size="271" state="PINNED_OPEN" weight="1000">
+      
+      
+      
+      
+      <Folder>
+        
+        
+        
+        
+        <Palette id="PropertiesPalette" visible="false" />
+        
+        
+        
+        
+        <Palette id="CSSInspectorPalette" visible="false" />
+        
+        
+        
+        
+        <Palette id="EventsPalette" visible="false" />
+        
+        
+      
+      
+      </Folder>
+      
+      
+      
+      
+      <Folder>
+        
+        
+        
+        
+        <Palette id="OutlinePalette" visible="true" />
+        
+        
+        
+        
+        <Palette id="BusinessObjectsPalette" visible="false" />
+        
+        
+        
+        
+        <Palette id="VariablesPalette" visible="false" />
+        
+        
+        
+        
+        <Palette id="NavigatorPalette" visible="false" />
+        
+        
+      
+      
+      </Folder>
+      
+      
+    
+    
+    </Panel>
+    
+    
+    
+    
+    <Panel type="docked" id="BottomUIPalettePanel" size="175" state="PINNED_OPEN" weight="">
+      
+      
+      
+      
+      <Folder>
+        
+        
+        
+        
+        <Palette id="CommentsPalette" visible="false" />
+        
+        
+        
+        
+        <Palette id="RequirementsPalette" visible="false" />
+        
+        
+      
+      
+      </Folder>
+      
+      
+    
+    
+    </Panel>
+    
+    
+  
+  
+  </UI>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <SiteMap weight="Editor">
+    
+    
+    <Panel type="docked" id="LeftSiteMapPalettePanel" size="245" state="PINNED_OPEN" weight="1000">
+      
+      
+      <Folder>
+        
+        
+        <Palette id="SiteMapPropertiesPalette" visible="true" />
+        
+      
+      </Folder>
+      
+    
+    </Panel>
+    
+    
+    <Panel type="docked" id="RightSiteMapPalettePanel" size="250" state="PINNED_OPEN" weight="1000">
+      
+      
+      <Folder>
+        
+        
+        <Palette id="SiteMapScreensPalette" visible="true" viewMode="LIST_TEXT" />
+        
+      
+      </Folder>
+      
+      
+      <Folder>
+        
+        
+        <Palette id="SiteMapOverviewPalette" visible="false" />
+        
+      
+      </Folder>
+      
+    
+    </Panel>
+    
+    
+    <Panel type="docked" id="BottomSiteMapPalettePanel" size="200" state="PINNED_OPEN" weight="" />
+    
+  
+  </SiteMap>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <Scenarios weight="Editor">
+    <Panel type="docked" id="LeftScenariosPalettePanel" size="175" state="PINNED_OPEN" weight="500:500">
+      <Folder>
+        <Palette id="ScenarioWidgetsPalette" visible="true" />
+      </Folder>
+      <Folder>
+        <Palette id="ScenarioScreensPalette" visible="true" />
+      </Folder>
+    </Panel>
+    <Panel type="docked" id="RightScenariosPalettePanel" size="200" state="PINNED_OPEN" weight="500:500">
+      <Folder>
+        <Palette id="ScenariosPalette" visible="true" />
+      </Folder>
+      <Folder>
+        <Palette id="ScenariosOutlinePalette" visible="true" />
+        <Palette id="ScenariosNavigatorPalette" visible="true" />
+      </Folder>
+    </Panel>
+    <Panel type="docked" id="BottomScenariosPalettePanel" size="200" state="PINNED_OPEN" weight="1000">
+      <Folder>
+        <Palette id="ScenariosCommentsPalette" visible="true" />
+        <Palette id="ScenariosRequirementsPalette" visible="true" />
+      </Folder>
+    </Panel>
+  </Scenarios>
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+</preferences>
+
